@@ -8,7 +8,6 @@ The project integrates **decoupled MIMO control using PID loops**, **industrial 
 **data acquisition**, and **graphical supervision**, representing an applied control solution
 for mineral processing experimentation.
 
----
 
 ## 📂 Contents
 
@@ -16,7 +15,6 @@ for mineral processing experimentation.
 
 > ⚠️ Note: The repository includes the original LabVIEW VI for reference purposes.
 > Execution requires legacy software, drivers, and hardware.
-
 
 
 ## 🎯 Project Overview
@@ -32,7 +30,7 @@ independent **PID control loops** after interaction analysis.
 Real-time visualization, supervision, and actuation were achieved
 through industrial communication and laboratory instrumentation.
 
----
+
 
 ## 🏗️ System Architecture
 
@@ -51,7 +49,7 @@ High-level architecture of the control system:
 This architecture enabled real-time interaction between laboratory
 instrumentation and industrial automation components.
 
----
+
 
 ## 🔁 Control Strategy (Decoupled MIMO)
 
@@ -89,7 +87,7 @@ The implemented control strategy consists of:
 This approach simplifies controller design while preserving acceptable
 performance under experimental operating conditions.
 
----
+
 
 ## 🖥️ Graphical User Interface
 
@@ -108,7 +106,6 @@ The LabVIEW-based GUI provides:
 The interface was developed for experimental usability
 and process supervision rather than commercial HMI deployment.
 
----
 
 ## 🧪 Pilot-Scale Experimental Setup
 
@@ -125,7 +122,7 @@ allowing:
 
 This confirms the applied and experimental nature of the work beyond simulation.
 
----
+
 
 ## 🧩 Hardware & Software
 
@@ -145,20 +142,32 @@ This confirms the applied and experimental nature of the work beyond simulation.
 > this repository is provided mainly for **documentation,
 > reference, and demonstration purposes**.
 
----
+
 
 ## 📄 Related Publication
 
 This work is associated with the following conference publication:
 
-🔗 **Conference Article:**  
+## 📄 Related Publication (Preliminary System Modeling)
+
+The following conference publication presents a **preliminary dynamic modeling** of the flotation column system.
 https://ieeexplore.ieee.org/document/8609809/
 
 The publication describes the experimental setup,
 MIMO interaction analysis, control strategy,
 and main results obtained during the thesis work.
 
----
+The publication focuses on:
+- Preliminary dynamic modeling of the flotation column  
+- Qualitative and quantitative analysis of variable interaction  
+- Identification of the MIMO nature of the process  
+
+The model should be understood as a **first-order and second approximation**
+intended to support interaction analysis and control structure selection.
+
+The **control strategy and supervisory implementation** documented in this repository
+were developed based on this preliminary modeling and subsequent experimental insight,
+and are **not covered in the paper itself**.
 
 ## 📌 Context
 
@@ -170,7 +179,7 @@ and reflects an applied approach to:
 - Instrumentation and data acquisition  
 - Experimental validation in mineral processing  
 
----
+
 
 ## ⚠️ Disclaimer
 
@@ -179,14 +188,13 @@ It represents an experimental system developed in an academic context and is
 **not intended for direct industrial deployment** without proper engineering
 validation, safety analysis, and compliance with applicable standards.
 
----
+
 
 ## 🤝 Support Projects
 
 Support my work on Patreon:  
 https://www.patreon.com/c/CrissCCL
 
----
 
 ## 📜 License
 
