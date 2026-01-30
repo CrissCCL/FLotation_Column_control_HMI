@@ -56,7 +56,7 @@ instrumentation and industrial automation components.
 ## 🔁 Control Strategy (Decoupled MIMO)
 
 <p align="center">
-  <img alt="Decoupled MIMO Control Diagram" src="https://github.com/user-attachments/assets/78a452f5-2ff9-42f5-bc37-3f9153bfea06" width="400">
+  <img alt="Decoupled MIMO Control Diagram" src="https://github.com/user-attachments/assets/78a452f5-2ff9-42f5-bc37-3f9153bfea06" width="500">
 </p>
 
 ### Process Variables Definition
@@ -64,15 +64,15 @@ instrumentation and industrial automation components.
 The following variables are used in the control block diagram:
 
 
-- $$ h $$: Pulp level inside the flotation column
-- $$ Q_p $$: Pulp flow rate (manipulated variable for level control)
-- $$ Q_g $$: Gas flow rate (manipulated variable for gas holdup control)
- $$ \varepsilon_g $$: Gas holdup (gas phase volume fraction)
+- $$h$$: Pulp level inside the flotation column
+- $$Q_p$$: Pulp flow rate (manipulated variable for level control)
+- $$Q_g$$: Gas flow rate (manipulated variable for gas holdup control)
+ $$\varepsilon_g$$: Gas holdup (gas phase volume fraction)
 
 The system is modeled as a **2×2 MIMO process** with:
 
-- Inputs: $$ Q_p $$ ; $$Q_g$$
-- Outputs: $$ h $$;$$ \varepsilon_g$$
+- Inputs: $$Q_p$$ ; $$Q_g$$
+- Outputs: $$h$$;$$\varepsilon_g$$
 
 Interaction between the loops motivated the use of a **decoupled control structure**.
 
