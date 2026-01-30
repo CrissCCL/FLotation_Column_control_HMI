@@ -37,11 +37,11 @@ through industrial communication and laboratory instrumentation.
 <p align="center">
   <img alt="System Architecture" 
        src="https://github.com/user-attachments/assets/3d8994f2-fd79-4b2a-a2fb-cdf094a75ed6" 
-       width="400">
+       width="450">
   &nbsp;&nbsp;&nbsp;
   <img alt="Copper Column Flotation Process" 
        src="https://github.com/user-attachments/assets/ea4d3a94-cece-44e6-a857-b4e03b76e9bc"
-       width="450">
+       width="500">
 </p>
 
 
