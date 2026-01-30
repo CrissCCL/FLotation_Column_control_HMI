@@ -37,7 +37,7 @@ through industrial communication and laboratory instrumentation.
 ## 🏗️ System Architecture
 
 <p align="center">
-  <img alt="System Architecture" src="https://github.com/user-attachments/assets/3d8994f2-fd79-4b2a-a2fb-cdf094a75ed6" width="400">
+  <img alt="System Architecture" src="https://github.com/user-attachments/assets/3d8994f2-fd79-4b2a-a2fb-cdf094a75ed6" width="500">
 </p>
 
 High-level architecture of the control system:
@@ -72,7 +72,7 @@ The following variables are used in the control block diagram:
 The system is modeled as a **2×2 MIMO process** with:
 
 - Inputs: $$Q_p$$ ; $$Q_g$$
-- Outputs: $$h$$; $$\varepsilon_g$$
+- Outputs: $$h$$ ; $$\varepsilon_g$$
 
 Interaction between the loops motivated the use of a **decoupled control structure**.
 
@@ -94,7 +94,7 @@ performance under experimental operating conditions.
 ## 🖥️ Graphical User Interface
 
 <p align="center">
-  <img alt="GUI Running" src="https://github.com/user-attachments/assets/89bcbd90-3f52-4bcd-8f08-f3eb902f2560" width="400">
+  <img alt="GUI Running" src="https://github.com/user-attachments/assets/89bcbd90-3f52-4bcd-8f08-f3eb902f2560" width="550">
 </p>
 
 The LabVIEW-based GUI provides:
@@ -113,7 +113,7 @@ and process supervision rather than commercial HMI deployment.
 ## 🧪 Pilot-Scale Experimental Setup
 
 <p align="center">
-  <img alt="Pilot-Scale Flotation Column" src="https://github.com/user-attachments/assets/c1b67d15-f5aa-41c9-b9fb-4edf52aebc0c" width="400">
+  <img alt="Pilot-Scale Flotation Column" src="https://github.com/user-attachments/assets/c1b67d15-f5aa-41c9-b9fb-4edf52aebc0c" width="500">
 </p>
 
 The control system was validated on a **pilot-scale flotation column**,
