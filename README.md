@@ -11,7 +11,7 @@ for mineral processing experimentation.
 
 ## 📂 Contents
 
-- `/LabVIEW` → Main LabVIEW VI implementing the supervisory GUI and decoupled MIMO PID control
+- `/App flotation column` → Main LabVIEW VI implementing the supervisory GUI and decoupled MIMO PID control
 
 > ⚠️ Note: The repository includes the original LabVIEW VI for reference purposes.
 > Execution requires legacy software, drivers, and hardware.
@@ -22,7 +22,7 @@ for mineral processing experimentation.
 The system was designed to regulate and supervise two strongly coupled process variables:
 
 - **Liquid level (h)** inside the flotation column  
-- **Gas holdup ($$\varepsilon_g$$)**  
+- **Gas holdup (ε_g)**  
 
 using a **decoupled MIMO control structure**, implemented as
 independent **PID control loops** after interaction analysis.
@@ -40,10 +40,9 @@ through industrial communication and laboratory instrumentation.
        width="450">
   &nbsp;&nbsp;&nbsp;
   <img alt="Copper Column Flotation Process" 
-       src="https://github.com/user-attachments/assets/ea4d3a94-cece-44e6-a857-b4e03b76e9bc"
+       src="https://github.com/user-attachments/assets/c4c90479-8129-4b10-9018-813e9dce06b0"
        width="500">
 </p>
-
 
 The pilot-scale experimental setup corresponds to a **column flotation process
 for copper extraction**, providing the physical context for the control
@@ -152,31 +151,26 @@ This confirms the applied and experimental nature of the work beyond simulation.
 - OPC server for PLC communication
 - Decoupled MIMO PID control and data visualization implemented in LabVIEW
 
-> ⚠️ Note: Due to legacy software and hardware dependencies,
-> this repository is provided mainly for **documentation,
-> reference, and demonstration purposes**.
+> ⚠️ Note: Due to legacy software and hardware dependencies, this repository
+> is provided mainly for **documentation, reference, and demonstration purposes**.
+> The original implementation was developed using **LabVIEW 2013**.
+> The repository includes the original VI for reference purposes only.
+> Execution requires legacy software, drivers, and compatible hardware.
 
-
-
-## 📄 Related Publication
-
-This work is associated with the following conference publication:
 
 ## 📄 Related Publication (Preliminary System Modeling)
 
-The following conference publication presents a **preliminary dynamic modeling** of the flotation column system.
-https://ieeexplore.ieee.org/document/8609809/
+The following conference publication presents a **preliminary dynamic modeling**
+of the flotation column system:
 
-The publication describes the experimental setup,
-MIMO interaction analysis, control strategy,
-and main results obtained during the thesis work.
+https://ieeexplore.ieee.org/document/8609809/
 
 The publication focuses on:
 - Preliminary dynamic modeling of the flotation column  
 - Qualitative and quantitative analysis of variable interaction  
 - Identification of the MIMO nature of the process  
 
-The model should be understood as a **first-order and second approximation**
+The model should be understood as a **first- and second-order approximation**
 intended to support interaction analysis and control structure selection.
 
 The **control strategy and supervisory implementation** documented in this repository
