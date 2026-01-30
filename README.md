@@ -11,7 +11,7 @@ for mineral processing experimentation.
 
 ## 📂 Contents
 
-- `/App flotation column` → Main LabVIEW VI implementing the supervisory GUI and decoupled MIMO PID control
+- `/App flotation column` → Main LabVIEW VI implementing the supervisory HMI and decoupled MIMO PID control
 
 > ⚠️ Note: The repository includes the original LabVIEW VI for reference purposes.
 > Execution requires legacy software, drivers, and hardware.
@@ -107,7 +107,10 @@ The decoupling strategy was guided by the interaction analysis obtained
 from the preliminary modeling stage.
 
 
-## 🖥️ Graphical User Interface
+## 🖥️ HMI
+
+The LabVIEW-based HMI provides:
+From a software perspective, the interface is implemented as a graphical user interface (GUI); however, functionally it operates as a process HMI intended for supervision and control.
 
 <p align="center">
   <img alt="GUI Running" src="https://github.com/user-attachments/assets/89bcbd90-3f52-4bcd-8f08-f3eb902f2560" width="550">
