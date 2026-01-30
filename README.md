@@ -45,6 +45,11 @@ through industrial communication and laboratory instrumentation.
 </p>
 
 
+The pilot-scale experimental setup corresponds to a **column flotation process
+for copper extraction**, providing the physical context for the control
+architecture shown above.
+
+
 High-level architecture of the control system:
 
 - **Supervisory layer:** LabVIEW GUI (control, visualization, logging)  
