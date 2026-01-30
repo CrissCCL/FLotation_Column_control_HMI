@@ -63,32 +63,16 @@ instrumentation and industrial automation components.
 
 The following variables are used in the control block diagram:
 
-$$
-h : \text{Pulp level inside the flotation column}
-$$
 
-$$
-Q_p : \text{Pulp flow rate (manipulated variable for level control)}
-$$
-
-$$
-Q_g : \text{Gas flow rate (manipulated variable for gas holdup control)}
-$$
-
-$$
-\varepsilon_g : \text{Gas holdup (gas phase volume fraction)}
-$$
+- $$ h $$: Pulp level inside the flotation column
+- $$ Q_p $$: Pulp flow rate (manipulated variable for level control)
+- $$ Q_g $$: Gas flow rate (manipulated variable for gas holdup control)
+ $$ \varepsilon_g $$: Gas holdup (gas phase volume fraction)
 
 The system is modeled as a **2×2 MIMO process** with:
 
-$$
-\text{Inputs: } Q_p,\; Q_g
-$$
-
-$$
-\text{Outputs: } h,\; \varepsilon_g
-$$
-
+- Inputs: $$ Q_p $$ ; $$Q_g$$
+- Outputs: $$ h $$;$$ \varepsilon_g$$
 
 Interaction between the loops motivated the use of a **decoupled control structure**.
 
