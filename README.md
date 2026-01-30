@@ -34,15 +34,20 @@ through industrial communication and laboratory instrumentation.
 
 ## 🏗️ System Architecture
 
-<p align="center">
-  <img alt="System Architecture" 
-       src="https://github.com/user-attachments/assets/3d8994f2-fd79-4b2a-a2fb-cdf094a75ed6" 
-       width="450">
-  &nbsp;&nbsp;&nbsp;
-  <img alt="Copper Column Flotation Process" 
-       src="https://github.com/user-attachments/assets/c4c90479-8129-4b10-9018-813e9dce06b0"
-       width="500">
-</p>
+<table align="center">
+  <tr>
+    <td align="center">
+      <img alt="System Architecture"
+           src="https://github.com/user-attachments/assets/3d8994f2-fd79-4b2a-a2fb-cdf094a75ed6"
+           width="450">
+    </td>
+    <td align="center">
+      <img alt="Copper Column Flotation Process"
+           src="https://github.com/user-attachments/assets/c4c90479-8129-4b10-9018-813e9dce06b0"
+           width="500">
+    </td>
+  </tr>
+</table>
 
 The pilot-scale experimental setup corresponds to a **column flotation process
 for copper extraction**, providing the physical context for the control
