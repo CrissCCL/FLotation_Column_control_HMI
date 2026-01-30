@@ -72,7 +72,7 @@ instrumentation and industrial automation components.
 ## 🔁 Control Strategy (Decoupled MIMO)
 
 <p align="center">
-  <img alt="Decoupled MIMO Control Diagram" src="https://github.com/user-attachments/assets/78a452f5-2ff9-42f5-bc37-3f9153bfea06" width="500">
+  <img alt="Decoupled MIMO Control Diagram" src="https://github.com/user-attachments/assets/78a452f5-2ff9-42f5-bc37-3f9153bfea06" width="550">
 </p>
 
 ### Process Variables Definition
