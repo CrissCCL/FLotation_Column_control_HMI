@@ -44,7 +44,7 @@ through industrial communication and laboratory instrumentation.
     <td align="center">
       <img alt="Copper Column Flotation Process"
            src="https://github.com/user-attachments/assets/c4c90479-8129-4b10-9018-813e9dce06b0"
-           width="500">
+           width="550">
     </td>
   </tr>
 </table>
