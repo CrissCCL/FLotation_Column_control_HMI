@@ -22,7 +22,7 @@ for mineral processing experimentation.
 The system was designed to regulate and supervise two strongly coupled process variables:
 
 - **Liquid level (h)** inside the flotation column  
-- **Gas holdup (ε_g)**  
+- **Gas holdup ($$\varepsilon_g$$)**  
 
 using a **decoupled MIMO control structure**, implemented as
 independent **PID control loops** after interaction analysis.
@@ -37,11 +37,11 @@ through industrial communication and laboratory instrumentation.
 <p align="center">
   <img alt="System Architecture" 
        src="https://github.com/user-attachments/assets/3d8994f2-fd79-4b2a-a2fb-cdf094a75ed6" 
-       width="380">
+       width="400">
   &nbsp;&nbsp;&nbsp;
   <img alt="Copper Column Flotation Process" 
        src="https://github.com/user-attachments/assets/ea4d3a94-cece-44e6-a857-b4e03b76e9bc"
-       width="380">
+       width="450">
 </p>
 
 
