@@ -72,7 +72,7 @@ The following variables are used in the control block diagram:
 The system is modeled as a **2×2 MIMO process** with:
 
 - Inputs: $$Q_p$$ ; $$Q_g$$
-- Outputs: $$h$$;$$\varepsilon_g$$
+- Outputs: $$h$$; $$\varepsilon_g$$
 
 Interaction between the loops motivated the use of a **decoupled control structure**.
 
