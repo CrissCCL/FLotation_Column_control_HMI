@@ -1,4 +1,4 @@
-# 🧪 Flotation Column Control System – LabVIEW GUI
+# 🧪 Flotation Column Control System – LabVIEW HMI
 
 This repository documents the development of a **supervisory control and instrumentation system**
 for a **pilot-scale column flotation process**, implemented as part of my
