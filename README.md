@@ -8,6 +8,7 @@ The project integrates **decoupled MIMO control using PID loops**, **industrial 
 **data acquisition**, and **graphical supervision**, representing an applied control solution
 for mineral processing experimentation.
 
+---
 
 ## 📂 Contents
 
@@ -16,6 +17,7 @@ for mineral processing experimentation.
 > ⚠️ Note: The repository includes the original LabVIEW VI for reference purposes.
 > Execution requires legacy software, drivers, and hardware.
 
+---
 
 ## 🎯 Project Overview
 
@@ -30,7 +32,7 @@ independent **PID control loops** after interaction analysis.
 Real-time visualization, supervision, and actuation were achieved
 through industrial communication and laboratory instrumentation.
 
-
+---
 
 ## 🏗️ System Architecture
 
@@ -53,13 +55,13 @@ The pilot-scale experimental setup corresponds to a **column flotation process
 for copper extraction**, providing the physical context for the control
 architecture shown above.
 
-
 High-level architecture of the control system:
 
-- **Supervisory layer:** LabVIEW GUI (control, visualization, logging)  
+- **Supervisory layer:** LabVIEW HMI (control, visualization, logging)  
 - **Control & actuation:** PLC Siemens S7-1200  
 - **Communication:** OPC server (LabVIEW ↔ PLC)  
 - **Instrumentation:** NI USB-6002 DAQ  
+- **Gas injection:** Brooks Instrument **SLA5850** mass flow controller (actuated by the PLC)  
 - **Process:** Pilot-scale flotation column  
 
 This architecture enabled real-time interaction between laboratory
@@ -83,10 +85,17 @@ The following variables are used in the control block diagram:
 - $$Q_g$$: Gas flow rate (manipulated variable for gas holdup control)
  $$\varepsilon_g$$: Gas holdup (gas phase volume fraction)
 
+The manipulated variable **Q_g** corresponds to the setpoint of the
+**Brooks Instrument SLA5850** mass flow controller.
+
+
 The system is modeled as a **2×2 MIMO process** with:
 
 - Inputs: $$Q_p$$ ; $$Q_g$$
 - Outputs: $$h$$ ; $$\varepsilon_g$$
+
+The gas flow rate (**Q_g**) is physically manipulated through a **Brooks Instrument SLA5850**
+mass flow controller, commanded by the PLC as part of the decoupled MIMO control structure.
 
 Interaction between the loops motivated the use of a **decoupled control structure**.
 
@@ -100,12 +109,8 @@ The implemented control strategy consists of:
 - Continuous-time PID tuning implemented in LabVIEW  
 - Actuation through **peristaltic pumps** driven by the PLC  
 
-This approach simplifies controller design while preserving acceptable
-performance under experimental operating conditions.
-
 The decoupling strategy was guided by the interaction analysis obtained
 from the preliminary modeling stage.
-
 
 ## 🖥️ HMI
 
@@ -150,6 +155,7 @@ This confirms the applied and experimental nature of the work beyond simulation.
 ### Hardware
 - Siemens **S7-1200 PLC**
 - **NI USB-6002** Data Acquisition Card
+- **Brooks Instrument SLA5850** mass flow controller (air injection)
 - Peristaltic pumps
 - Level and gas holdup sensors
 - Pilot-scale flotation column
@@ -194,7 +200,6 @@ and reflects an applied approach to:
 - Industrial automation  
 - Instrumentation and data acquisition  
 - Experimental validation in mineral processing  
-
 
 
 ## ⚠️ Disclaimer
