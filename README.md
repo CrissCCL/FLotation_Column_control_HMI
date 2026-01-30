@@ -35,8 +35,15 @@ through industrial communication and laboratory instrumentation.
 ## 🏗️ System Architecture
 
 <p align="center">
-  <img alt="System Architecture" src="https://github.com/user-attachments/assets/3d8994f2-fd79-4b2a-a2fb-cdf094a75ed6" width="500">
+  <img alt="System Architecture" 
+       src="https://github.com/user-attachments/assets/3d8994f2-fd79-4b2a-a2fb-cdf094a75ed6" 
+       width="380">
+  &nbsp;&nbsp;&nbsp;
+  <img alt="Copper Column Flotation Process" 
+       src="https://github.com/user-attachments/assets/ea4d3a94-cece-44e6-a857-b4e03b76e9bc"
+       width="380">
 </p>
+
 
 High-level architecture of the control system:
 
@@ -87,6 +94,8 @@ The implemented control strategy consists of:
 This approach simplifies controller design while preserving acceptable
 performance under experimental operating conditions.
 
+The decoupling strategy was guided by the interaction analysis obtained
+from the preliminary modeling stage.
 
 
 ## 🖥️ Graphical User Interface
