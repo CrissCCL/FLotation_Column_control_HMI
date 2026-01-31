@@ -8,7 +8,6 @@ The project integrates **decoupled MIMO control using PID loops**, **industrial 
 **data acquisition**, and **graphical supervision**, representing an applied control solution
 for mineral processing experimentation.
 
----
 
 ## 📂 Contents
 
@@ -17,7 +16,6 @@ for mineral processing experimentation.
 > ⚠️ Note: The repository includes the original LabVIEW VI for reference purposes.
 > Execution requires legacy software, drivers, and hardware.
 
----
 
 ## 🎯 Project Overview
 
@@ -32,7 +30,6 @@ independent **PID control loops** after interaction analysis.
 Real-time visualization, supervision, and actuation were achieved
 through industrial communication and laboratory instrumentation.
 
----
 
 ## 🏗️ System Architecture
 
@@ -66,7 +63,6 @@ High-level architecture of the control system:
 
 This architecture enabled real-time interaction between laboratory
 instrumentation and industrial automation components.
-
 
 
 ## 🔁 Control Strategy (Decoupled MIMO)
