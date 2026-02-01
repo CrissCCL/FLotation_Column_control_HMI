@@ -1,5 +1,13 @@
 # 🧪 Flotation Column Control System – LabVIEW HMI
 
+![LabVIEW](https://img.shields.io/badge/LabVIEW-HMI-blue)
+![Control](https://img.shields.io/badge/Control-MIMO%20PID-orange)
+![Automation](https://img.shields.io/badge/Automation-Industrial-green)
+![Process](https://img.shields.io/badge/Process-Mineral%20Flotation-lightgrey)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
+## Overview
+
 This repository documents the development of a **supervisory control and instrumentation system**
 for a **pilot-scale column flotation process**, implemented as part of my
 **Master’s thesis in Electrical Engineering (2018)**.
